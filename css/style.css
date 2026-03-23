@@ -1,0 +1,144 @@
+/* =========================================================
+   VeritAI – style.css
+   Personnalisation légère Bootstrap 5
+   BTS SIO1
+   ========================================================= */
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Navbar */
+.brand-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.logo-img {
+  object-fit: contain;
+}
+
+/* Hero */
+.hero-section {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+/* Stats */
+.hero-stats {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  padding: 1.25rem;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.stat-label {
+  font-size: .85rem;
+  color: #6c757d;
+}
+
+/* Sections */
+.section-apropos {
+  background-color: #fff;
+}
+
+.section-services {
+  background-color: #f8f9fa;
+}
+
+.section-contact {
+  background-color: #fff;
+}
+
+/* À propos image */
+.apropos-img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: .5rem;
+}
+
+/* Cards services */
+.service-card {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.service-icon {
+  font-size: 2rem;
+  color: #0d6efd;
+  display: block;
+  margin-bottom: .75rem;
+}
+
+.service-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+/* Contact */
+.contact-wrapper {
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.contact-info-panel {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-right: 1px solid #dee2e6;
+}
+
+.contact-form-panel {
+  background: #fff;
+  padding: 2rem;
+}
+
+/* Footer */
+.footer {
+  background: #212529;
+}
+
+.footer-link {
+  color: #adb5bd;
+  font-size: .85rem;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+  .contact-info-panel {
+    border-right: none;
+    border-bottom: 1px solid #dee2e6;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .apropos-img { height: 200px; }
+}
